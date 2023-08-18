@@ -6,15 +6,15 @@ import img4 from '../assets/project11.webp'
 const projectData = [
   {
     id: "1",
-    name: "phonezone",
+    name: "Sneakerx",
     imgSrc: img1,
-    info: "Phonezone is a Full-Stack Web App built using MERN stack. User can log in into the store to make their purchases. Razorpay has been integrated to handle the payments. User can search, sort & filter the products. All the files are store on AWS S3",
+    info: "Sneakerx is a Full-Stack Web App built using MERN stack. User can log in into the store to make their purchases. Razorpay has been integrated to handle the payments. User can search, sort & filter the products. All the files are store on AWS S3",
     userEmail: "karan1@gmail.com",
     userPassword: "123123",
     adminEmail: "karandemo577@gmail.com",
     adminPassword: "123123",
-    repo: "https://github.com/karanch577/ecommerce-frontend",
-    liveLink: "https://phonezone.vercel.app",
+    repo: "https://github.com/karanch577/Sneakerx-frontend",
+    liveLink: "https://sneakerx-karan.netlify.app",
     techStack: ["React", "Tailwind CSS","ExpressJs", "MongoDB"]
   },
   {
