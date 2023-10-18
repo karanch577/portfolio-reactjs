@@ -14,7 +14,7 @@ const projectData = [
     adminEmail: "karandemo577@gmail.com",
     adminPassword: "123123",
     repo: "https://github.com/karanch577/Sneakerx-frontend",
-    liveLink: "https://sneakerx-karan.netlify.app",
+    liveLink: "https://sneakerx-frontend.vercel.app",
     techStack: ["React", "Tailwind CSS","ExpressJs", "MongoDB"]
   },
   {
@@ -23,7 +23,7 @@ const projectData = [
     imgSrc: img2,
     info: "This is a Paytm clone made using TailwindCSS. It is fully responsive for all screens. Paytm serves different site for smartphone and desktop. This is the clone of the desktop site and made it mobile responsive.",
     repo: "https://github.com/karanch577/paytm-clone-tailwindcss",
-    liveLink: "https://paytm-clone-karanch.netlify.app",
+    liveLink: "https://paytm-clone-tailwindcss.vercel.app",
     techStack: ["HTML", "Tailwind CSS"]
   },
   {
@@ -32,7 +32,7 @@ const projectData = [
     imgSrc: img3,
     info: "Shopify.in clone made using TailwindCSS. It is fully responsive for all screens.",
     repo: "https://github.com/karanch577/shopify.in-clone",
-    liveLink: "https://shopify-clone-karanch.netlify.app",
+    liveLink: "https://shopify-in-clone.vercel.app",
     techStack: ["HTML", "Tailwind CSS"]
   },
   {
@@ -41,7 +41,7 @@ const projectData = [
     imgSrc: img4,
     info: "A modern, fully-responsive landing page for a hosting company. It is built using HTML, CSS and Javascript.",
     repo: "https://github.com/karanch577/css-project-11",
-    liveLink: "https://css-projects-11.netlify.app",
+    liveLink: "https://css-project-11.vercel.app",
     techStack: ["HTML", "CSS", "Javascript"]
   },
 ];
