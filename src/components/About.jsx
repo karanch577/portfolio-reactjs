@@ -7,13 +7,16 @@ import TailwindIcon from "../assets/icons/tailwind-css-icon.png";
 import NodeIcon from "../assets/icons/node-js-icon.png";
 import MongoDbIcon from "../assets/icons/mongodb-icon.png";
 import IconWrapper from "./IconWrapper";
+import NextJsIcon from "../assets/icons/nextjs-13.svg";
+import TypescriptIcon from "../assets/icons/Typescript-02.svg";
+import PostgresqlIcon from "../assets/icons/postgresql.png"
 
 function About() {
   return (
     <div className="px-5 md:px-2 lg:px-0 text-center md:text-left max-w-4xl mx-auto">
       <p>
         I'm a Full Stack Developer. I use React JS in the frontend and NodeJs in
-        the backend. For the database, I use mongoDB.I am a quick learner, I can
+        the backend. For the database, I use mongoDB, MySql, PostgreSQL.I am a quick learner, I can
         learn other tech stack too, if required. I have done my BCA from Cotton
         University, Guwahati in 2022.
       </p>
@@ -33,11 +36,20 @@ function About() {
             <img className="w-8 h-auto" src={ReactIcon} alt="reactIcon" />
           </IconWrapper>
           <IconWrapper>
+            <img className="w-8 h-auto" src={NextJsIcon} alt="nextjsIcon" />
+          </IconWrapper>
+          <IconWrapper>
+            <img className="w-8 h-auto" src={TypescriptIcon} alt="typescriptIcon" />
+          </IconWrapper>
+          <IconWrapper>
             <img className="w-8 h-auto" src={TailwindIcon} alt="TailwindCssIcon"
             />
           </IconWrapper>
           <IconWrapper>
             <img className="w-8 h-auto" src={NodeIcon} alt="nodeIcon" />
+          </IconWrapper>
+          <IconWrapper>
+            <img className="w-8 h-auto" src={PostgresqlIcon} alt="postgresqlIcon" />
           </IconWrapper>
           <IconWrapper>
             <img

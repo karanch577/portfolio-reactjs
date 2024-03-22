@@ -3,7 +3,6 @@ import LinkBtn from './LinkBtn'
 import StackBtn from './StackBtn'
 
 function Project({data}) {
-  console.log(data.id)
 
   function imgClassList(id) {
     return `img sm:w-[80%] lg:w-[50%] h-[230px] xs:h-[300px]  overflow-clip rounded-lg sm:px-12 lg:px-0` + (id % 2 ? ` lg:order-0`: ` lg:order-1`)
@@ -24,6 +23,18 @@ function Project({data}) {
     <div className="techStack flex flex-wrap justify-center gap-5 mt-5">
       {data.techStack.length > 0 && data.techStack.map((ele, i) => <StackBtn key={i} data={ele} />)}
     </div>
+
+    {/* credential */}
+    {data?.email && data?.password && (
+      <div className='mt-2'>
+        <div>
+          email: {data.email}
+        </div>
+        <div>
+          password: {data.password}
+        </div>
+      </div>
+    )}
 
     {/* Links */}
     <div className="link flex justify-center gap-5 mt-5">
